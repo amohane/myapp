@@ -3,6 +3,6 @@ node{
     git 'https://github.com/amohane/myapp'
   }
   stage('Build Package'){
-    powershell 'mvn package'
+    sh 'mvn package'
   }
 }
