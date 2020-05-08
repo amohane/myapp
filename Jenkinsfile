@@ -7,4 +7,8 @@ node{
   stage('Build Package'){
     powershell 'mvn package'
   }
+  stage('Email Notification'){
+    exho 'Sent e-mail notification to ankitmohane@gmail.com'
+  }
+  
 }
